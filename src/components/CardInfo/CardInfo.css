@@ -1,0 +1,31 @@
+.card__info {
+    background: #81603F;
+    padding: 52px;
+    border-radius: 6px;
+}
+
+.card__info h2 {
+    font-size: var(--font24);
+    color: #FFFFFF;
+    margin-top: 0;
+    /* text-align: center; */
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.card__info p {
+    color: #ffffff88;
+    font-size: var(--font20);
+    line-height: 2;
+}
+
+@media (max-width: 1080px) {
+
+    .card__info p {
+      font-size: var(--font16_media);
+    }
+  
+    .card__info h2 {
+      font-size: var(--font20_media);
+    }
+}
